@@ -48,3 +48,18 @@ p {
 }
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .drop-column-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenido-principal {
+        flex-basis: 100%;
+    }
+
+    .sidebar-1,
+    .sidebar-2 {
+        flex-basis: 50%
+    }
+}
